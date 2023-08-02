@@ -4,7 +4,7 @@ import { setUser } from "../store/userSlice"; // Asegúrate de importar la acci�
 
 // Función para realizar la consulta GraphQL
 async function fetchGraphQL(query, variables = {}) {
-  const response = await fetch("http://localhost:3000/graphql", {
+  const response = await fetch("https://backend-resimoldes.onrender.com/graphql", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
