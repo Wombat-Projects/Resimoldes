@@ -1,10 +1,10 @@
 import UserProfile from "./Components/UserProfile";
+import Productos from "./Components/Productos/Productos";
 // Componente principal App
 function App() {
   return (
     <div>
-      <h2>User Profile</h2>
-      <UserProfile />
+      <Productos/>
     </div>
   );
 }
