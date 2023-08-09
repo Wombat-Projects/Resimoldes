@@ -1,11 +1,11 @@
 import React from 'react';
 import './login.css';
 
-const Login = () => {
+function Signup() {
   return (
     <div className="login-container">
       <div className="login-left">
-        <h1>Iniciar Sesión</h1>
+        <h1>Crear Cuenta</h1>
         <form className="login-form">
           <label htmlFor="username"><b>CORREO ELECTRÓNICO</b></label>
           <input type="text" id="username" placeholder="Correo electrónico" />
@@ -13,24 +13,19 @@ const Login = () => {
           <label htmlFor="password"><b>CONTRASEÑA</b></label>
           <input type="password" id="password" placeholder="Contraseña" />
 
-          <button type="submit">Iniciar sesión</button>
+          <label htmlFor="confirm-password"><b>CONFIRMAR CONTRASEÑA</b></label>
+          <input type="password" id="confirm-password" placeholder="Confirmar contraseña" />
 
-          <div className="checkbox-group">
-            <label className="remember-checkbox">
-              <input type="checkbox" defaultChecked /> Recuérdame
-              <span className="checkmark"></span>
-            </label>
-            <a href="#" className="forgot-password">Olvidé mi contraseña</a>
-          </div>
+          <button type="submit">Crear cuenta</button>
         </form>
       </div>
       <div className="login-right">
         <h2>Wombatmoldes</h2>
-        <p className="smaller-text">¿No tienes una cuenta?</p>
-        <a href='#' className="signup-button">Registrarse</a>
+        <p className="smaller-text">¿Ya tienes una cuenta?</p>
+        <a href="#" className="signup-button">Iniciar sesión</a>
       </div>
     </div>
   );
 }
 
-export default Login;
+export default Signup;

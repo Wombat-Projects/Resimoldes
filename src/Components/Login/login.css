@@ -59,6 +59,11 @@ body {
   cursor: pointer;
   margin-top: 10px;
   margin-bottom: 20px;
+  transition: background 1s;
+}
+
+.login-form button:hover {
+  background: linear-gradient(to bottom right, #6C63F5, #AD59F7);
 }
 
 .checkbox-group {
@@ -116,6 +121,10 @@ body {
 .signup-button:hover {
   background-color: white;
   color: #AD59F7;
+}
+
+input:focus {
+  outline: none;
 }
 
 @media (max-width: 768px) {
