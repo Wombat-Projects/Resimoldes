@@ -13,8 +13,8 @@ function Signup() {
           <label htmlFor="password"><b>CONTRASEÑA</b></label>
           <input type="password" id="password" placeholder="Contraseña" />
 
-          <label htmlFor="confirm-password"><b>CONFIRMAR CONTRASEÑA</b></label>
-          <input type="password" id="confirm-password" placeholder="Confirmar contraseña" />
+          <label htmlFor="confirm-password"><b>USUARIO</b></label>
+          <input type="password" id="confirm-password" placeholder="Usuario" />
 
           <button type="submit">Crear cuenta</button>
         </form>
