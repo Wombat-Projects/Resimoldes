@@ -22,7 +22,7 @@ function Signup() {
       <div className="login-right">
         <h2>Wombatmoldes</h2>
         <p className="smaller-text">¿Ya tienes una cuenta?</p>
-        <a href="#" className="signup-button">Iniciar sesión</a>
+        <a href="/" className="signup-button">Iniciar sesión</a>
       </div>
     </div>
   );
