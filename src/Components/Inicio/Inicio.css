@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Poppins:wght@500&display=swap');
+/* */
+@import url('https://fonts.cdnfonts.com/css/edensor'); 
+
+:root {
+    --color-fondo: #f0f0f0;
+    --color-morado: #ad59f7;
+    --color-azul: #6c63f5;
+}
+.container-principal {
+    height: 100px; 
+    background-color: var(--color-fondo);
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid; }
+
+
+.logo{
+    text-align: center;
+    padding-top: 5%;
+    width: 210px;
+    height: 39px;
+    padding-left: 30%;
+}
+
+.Logo-login{
+    text-align: end;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+body{
+    margin: 0;
+}
+
+ion-icon {
+    color: #666666;
+}
+
+.header{
+    background-color: #d1d0d0;
+    box-shadow: 2px 20px 20px rgba(0, 0, 0, 0.233);
+    /* height: 100px; */
+    font-size: 20px;
+}
+
+
+/* MODO RESPONSIVE */
+
+@media (max-width: 868px) { 
+    .container-principal {
+        height: 100px; 
+        grid-template-columns: 1fr 1fr 1fr;}
+    .logo{
+        margin-top: 3%;
+        width: 210px;
+        height: 39px;
+        padding-left: 20%;
+        }
+}
+
+@media (max-width: 420px) { 
+    .container-principal {
+        height: 100px; 
+        grid-template-columns: 10% 1fr 1fr;}
+    .logo{
+        margin-top: 3%;
+        width: 210px;
+        height: 39px;
+        padding-left: 20%;
+        }
+}
