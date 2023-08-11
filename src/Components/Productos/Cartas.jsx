@@ -4,7 +4,7 @@ const Cartas = ({producto}) => {
   return (
     <div className='product-card'>
       <img src={producto.imageUrl} alt={producto.name} />
-      <h3>{producto.name}</h3>
+      <h3 className='nameProduct'>{producto.name}</h3>
       <p>{producto.price}</p>
     </div>
   )
