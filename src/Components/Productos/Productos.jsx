@@ -46,6 +46,27 @@ const listado = [
         category: 'basico',
         imageUrl: 'https://i.pinimg.com/564x/39/61/ab/3961ab8dd6a2e963101aa3c507aa8ea9.jpg',
       },
+      {
+        id: 7,
+        name: 'Producto 1',
+        price: '$19.99',
+        category: 'avanzado',
+        imageUrl: 'https://i.pinimg.com/564x/39/61/ab/3961ab8dd6a2e963101aa3c507aa8ea9.jpg',
+      },
+      {
+        id: 8,
+        name: 'Producto 1',
+        price: '$19.99',
+        category: 'avanzado',
+        imageUrl: 'https://i.pinimg.com/564x/39/61/ab/3961ab8dd6a2e963101aa3c507aa8ea9.jpg',
+      },
+      {
+        id: 9,
+        name: 'Producto 1',
+        price: '$19.99',
+        category: 'avanzado',
+        imageUrl: 'https://i.pinimg.com/564x/39/61/ab/3961ab8dd6a2e963101aa3c507aa8ea9.jpg',
+      },
 ]
 
 const Producto  = () =>{
