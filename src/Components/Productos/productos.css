@@ -33,11 +33,3 @@
 .nameProduct{
   text-align: center;
 }
-
-.product-filter{
-  position: fixed;
-  left: 0;
-  padding: 2.5rem 5rem;
-  border: 1px solid #000;
-}
-

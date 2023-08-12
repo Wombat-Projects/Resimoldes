@@ -13,8 +13,8 @@ function Signup() {
           <label htmlFor="password"><b>CONTRASEÑA</b></label>
           <input type="password" id="password" placeholder="Contraseña" />
 
-          <label htmlFor="confirm-password"><b>CONFIRMAR CONTRASEÑA</b></label>
-          <input type="password" id="confirm-password" placeholder="Confirmar contraseña" />
+          <label htmlFor="confirm-password"><b>USUARIO</b></label>
+          <input type="password" id="confirm-password" placeholder="Usuario" />
 
           <button type="submit">Crear cuenta</button>
         </form>
@@ -22,7 +22,7 @@ function Signup() {
       <div className="login-right">
         <h2>Wombatmoldes</h2>
         <p className="smaller-text">¿Ya tienes una cuenta?</p>
-        <a href="#" className="signup-button">Iniciar sesión</a>
+        <a href="/" className="signup-button">Iniciar sesión</a>
       </div>
     </div>
   );
