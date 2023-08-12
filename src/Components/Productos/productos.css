@@ -23,13 +23,3 @@
   padding: 10px;
 }
 
-.product-card img {
-    width: 100%;
-    height: 200px; /* Altura de la imagen del producto */
-    object-fit: cover;
-    border-radius: 8px;
-  }
-
-.nameProduct{
-  text-align: center;
-}
