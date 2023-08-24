@@ -4,7 +4,7 @@ import "./Inicio.css";
 const Cuadro = () => { 
     return (
         <> 
-        <div className="cuadro">
+        <div className="cuadro" id='aboutus'>
             <div className="contenedor-principal">
                 <div className="texto grid-3-columnas">
                 <h1 className='Title'>¿Quiénes somos?</h1>

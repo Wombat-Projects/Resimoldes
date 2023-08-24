@@ -20,16 +20,16 @@ const Header = () => {
             </button>   
 
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <a class="navbar-brand" href="#">Inicio</a>
+            <a class="navbar-brand hover-underline" href="#">Inicio</a>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Productos</a>
+                        <a class="nav-link hover-underline" aria-current="page" href="#">Productos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre Nosotros</a>
+                        <a class="nav-link hover-underline" href="#aboutus">Sobre Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link hover-underline" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>

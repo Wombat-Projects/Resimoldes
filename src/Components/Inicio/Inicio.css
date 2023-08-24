@@ -338,3 +338,36 @@ color: var(--color-fondo);
             text-align: center; 
         }
 }
+
+
+
+
+.hover-underline {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .hover-underline::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: var(--color-fondo); /* Color del subrayado */
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s;
+  }
+  
+  .hover-underline:hover {
+    color: #ffffff !important; /* Cambia el color del texto al hacer hover */
+    transform: translateY(-2px);
+  }
+  
+  .hover-underline:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }

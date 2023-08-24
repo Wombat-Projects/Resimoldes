@@ -6,7 +6,7 @@ const Forms = () => {
   return (
     <> 
     <br /> <br /> <br /> <br /> <br /> <br />
-      <div className="login-container">
+      <div className="login-container" id='contacto'>
           <div className="login-left">
               <h1>¡ Contactanos !</h1>
               <form className="login-form">
