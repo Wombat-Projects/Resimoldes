@@ -1,14 +1,12 @@
 import React from "react";
 import Header from "../Components/Inicio/Header";
-import Slider from "../Components/Inicio/Slider";
-
-const Home = () => {
+const Contact = () => {
   return (
     <div>
       <Header />
-      <Slider />
+      Contact
     </div>
   );
 };
 
-export default Home;
+export default Contact;

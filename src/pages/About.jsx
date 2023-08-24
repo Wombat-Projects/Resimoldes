@@ -1,14 +1,12 @@
 import React from "react";
 import Header from "../Components/Inicio/Header";
-import Slider from "../Components/Inicio/Slider";
-
-const Home = () => {
+const About = () => {
   return (
     <div>
       <Header />
-      <Slider />
+      About
     </div>
   );
 };
 
-export default Home;
+export default About;
