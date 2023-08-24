@@ -11,9 +11,9 @@ function App() {
     <div>
       <Header />
       <Slider />
-      <Cuadro />
+      {/* <Cuadro />
       <Forms />
-      <Footer />
+      <Footer /> */}
       
     </div>
   );
