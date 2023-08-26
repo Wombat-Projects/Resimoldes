@@ -4,6 +4,7 @@ import Slider from "../Components/Inicio/Slider";
 import { useLocation } from 'react-router-dom';
 
 const Home = () => {
+  //Esto es lo ocupa para cada seccion en especifico
   const location = useLocation();
 
   useEffect(() => {
