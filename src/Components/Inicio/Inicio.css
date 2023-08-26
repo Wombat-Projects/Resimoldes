@@ -50,7 +50,7 @@ ion-icon {
   background: linear-gradient(to bottom right, #6866ac, #ad59f7);
   box-shadow: 2px 17px 20px rgba(0, 0, 0, 0.144);
   /* height: 100px; */
-  font-size: 20px;
+  font-size: 40px;
   padding-left: 40px;
 }
 
@@ -64,9 +64,10 @@ ion-icon {
   padding-left: 30px;
 }
 
-button{
-    background-color: transparent !important;
-    border: none;
+button {
+  background-color: transparent !important;
+  border: none;
+  font-size: 36px;
 }
 /* SLIDER */
 
