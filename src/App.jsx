@@ -17,7 +17,6 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='/' element={<Login />} />
         <Route path='/registro' element={<Signup />} />
-        <Route path='/registro' element={<UserProfile />} />
       </Routes>
     </BrowserRouter>
   );
