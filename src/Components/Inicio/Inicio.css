@@ -19,7 +19,6 @@
 
 
 .logo{
-    text-align: center;
     padding-top: 5%;
     width: 210px;
     height: 39px;
@@ -30,6 +29,7 @@
     font-family: 'Edensor';
     font-weight: 800;
     color: #5b579c;
+    text-align: center;
 }
 
 .Logo-login{
