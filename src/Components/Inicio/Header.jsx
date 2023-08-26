@@ -6,7 +6,7 @@ const Header = () => {
     <> 
     <div className="container-principal">
         <div className="logo"> <h1> Wombatmolde </h1> </div>  
-        <div className='Logo-login'> <a href="#"><ion-icon name="person"  size="large"></ion-icon></a></div>
+        <div className='Logo-login'> <a href="/"><ion-icon name="person"  size="large"></ion-icon></a></div>
     </div>
 
     {/* HEADER */}
@@ -19,7 +19,7 @@ const Header = () => {
             </button>   
 
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <a class="navbar-brand hover-underline" href="/">Inicio</a>
+            <a class="navbar-brand hover-underline" href="/home">Inicio</a>
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link hover-underline" aria-current="page" href="/products">Productos</a>
