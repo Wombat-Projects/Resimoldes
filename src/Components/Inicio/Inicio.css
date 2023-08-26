@@ -2,6 +2,7 @@
 /* */
 @import url('https://fonts.cdnfonts.com/css/edensor'); 
 
+
 :root {
     --color-fondo: #f0f0f0;
     --color-morado: #ad59f7;
@@ -23,7 +24,12 @@
     width: 210px;
     height: 39px;
     padding-left: 30%;
-    
+}
+
+.logo h1{
+    font-family: 'Edensor';
+    font-weight: 800;
+    color: #5b579c;
 }
 
 .Logo-login{
