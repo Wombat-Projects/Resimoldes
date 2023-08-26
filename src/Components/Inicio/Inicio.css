@@ -64,17 +64,10 @@ ion-icon {
   padding-left: 30px;
 }
 
-.button-style {
-  background-color: transparent;
-  color: black;
-  border: none;
-  cursor: pointer;
-  /* Agrega más estilos según necesites */
+button{
+    background-color: transparent !important;
+    border: none;
 }
-.navbar .button-style {
-    margin: 0.25rem;
-    /* Otros estilos para el navbar */
-  }
 /* SLIDER */
 
 .slider {
