@@ -6,7 +6,7 @@ const Header = () => {
     <> 
     <div className="container-principal">
         <div>   </div>
-        <div className="logo"> <img src="https://i.imgur.com/rOPvZaF.png" alt="wombat logo" className='logo' /> </div>  
+        <div className="logo"> <h1> Wombatmoldes</h1> </div>  
         <div className='Logo-login'> <a href="#"><ion-icon name="person"  size="large"></ion-icon></a></div>
     </div>
 
