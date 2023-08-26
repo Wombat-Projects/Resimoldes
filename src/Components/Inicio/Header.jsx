@@ -5,8 +5,7 @@ const Header = () => {
     return (
     <> 
     <div className="container-principal">
-        <div>   </div>
-        <div className="logo"> <h1> Wombatmoldes</h1> </div>  
+        <div className="logo"> <h1> Wombatmolde </h1> </div>  
         <div className='Logo-login'> <a href="#"><ion-icon name="person"  size="large"></ion-icon></a></div>
     </div>
 
