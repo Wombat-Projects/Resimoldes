@@ -25,7 +25,7 @@ const Header = () => {
                 </button>   
 
                 <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
-                    <button className="navbar-brand hover-underline" onClick={() => navigate("/home")}>
+                    <button className="navbar-brand hover-underline" onClick={() => navigate("/home#seccionEspecifica")}>
                         Inicio
                     </button>
                     <ul className="navbar-nav">

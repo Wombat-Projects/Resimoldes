@@ -63,9 +63,10 @@ ion-icon {
   padding-left: 30px;
 }
 
-button{
-    background-color: transparent !important;
-    border: none;
+button {
+  background-color: transparent !important;
+  border: none;
+  font-size: 36px;
 }
 .top{
   width: 100%;
