@@ -25,7 +25,7 @@ const Header = () => {
                 </button>   
 
                 <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
-                    <button className="navbar-brand hover-underline" onClick={() => navigate("/home#seccionEspecifica")}>
+                    <button className="navbar-brand hover-underline" onClick={() => navigate("/home")}>
                         Inicio
                     </button>
                     <ul className="navbar-nav">
@@ -35,12 +35,12 @@ const Header = () => {
                             </button>
                         </li>
                         <li className="nav-item">
-                            <button className="nav-link hover-underline" onClick={() => navigate("/about")}>
+                            <button className="nav-link hover-underline" onClick={() => navigate("/home#seccionEspecifica")}>
                                 Sobre Nosotros
                             </button>
                         </li>
                         <li className="nav-item">
-                            <button className="nav-link hover-underline" onClick={() => navigate("/contact")}>
+                            <button className="nav-link hover-underline" onClick={() => navigate("/home#forms")}>
                                 Contacto
                             </button>
                         </li>
