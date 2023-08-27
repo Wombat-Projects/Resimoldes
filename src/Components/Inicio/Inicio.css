@@ -19,7 +19,6 @@
 .logo {
   padding-top: 5%;
   width: 210px;
-  height: 39px;
   padding-left: 30%;
 }
 
@@ -51,7 +50,7 @@ ion-icon {
   box-shadow: 2px 17px 20px rgba(0, 0, 0, 0.144);
   /* height: 100px; */
   font-size: 20px;
-  padding-left: 40px;
+  
 }
 
 .navbar-brand,
@@ -68,10 +67,18 @@ button{
     background-color: transparent !important;
     border: none;
 }
+.top{
+  width: 100%;
+position: fixed;
+top: 0;
+left: 0;
+z-index: 1000;
+}
 /* SLIDER */
 
 .slider {
   padding: 5%;
+  padding-top: 15%;
 }
 
 img.d-block.w-100 {
